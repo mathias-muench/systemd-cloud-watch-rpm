@@ -1,10 +1,10 @@
-%define commit             991dfaad1526f2977b9d09cd1e9421f3b9d9e919
-%define commitdate         20170224
-%define shortcommit        %(c=%{commit}; echo ${c:0:7})
+%global commit             991dfaad1526f2977b9d09cd1e9421f3b9d9e919
+%global commitdate         20170224
+%global shortcommit        %(c=%{commit}; echo ${c:0:7})
 
 Name: systemd-cloud-watch
 Version: 0
-Release: 0.4.%{commitdate}git%{shortcommit}%{?dist}
+Release: 0.3.%{commitdate}git%{shortcommit}%{?dist}
 Summary: FIXME
 License: FIXME
 
