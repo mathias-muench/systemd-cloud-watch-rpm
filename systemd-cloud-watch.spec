@@ -4,7 +4,7 @@
 
 Name: systemd-cloud-watch
 Version: 0
-Release: 0.2.%{commitdate}git%{shortcommit}%{?dist}
+Release: 0.3.%{commitdate}git%{shortcommit}%{?dist}
 Summary: FIXME
 License: FIXME
 
