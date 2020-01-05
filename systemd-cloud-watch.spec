@@ -50,7 +50,7 @@ go get -v ./systemd-cloud-watch
 
 %install
 %{__install} -D -m 755 _build/bin/systemd-cloud-watch %{buildroot}/%{_bindir}/systemd-cloud-watch
-%{__install} -D -m 644 _build/systemd-cloud-watch.service %{buildroot}/usr/lib/systemd/system/systemd-cloud-watch.service
+%{__install} -D -m 644 systemd-cloud-watch.service %{buildroot}/usr/lib/systemd/system/systemd-cloud-watch.service
 
 %files
 %attr(0755,root,root) /%{_bindir}/systemd-cloud-watch
