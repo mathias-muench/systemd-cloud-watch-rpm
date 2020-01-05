@@ -10,7 +10,7 @@ Release: 0.4.%{commitdate}git%{shortcommit}%{?dist}
 Summary: FIXME
 License: FIXME
 
-BuildRequires: golang systemd-devel
+BuildRequires: golang git systemd-devel
 
 Source0: https://github.com/marcogroppo/%{name}/archive/%{commit}.tar.gz
 
